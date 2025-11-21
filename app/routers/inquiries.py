@@ -39,3 +39,16 @@ def delete_inquiry(id: int, db: Session = Depends(get_db)):
     db.delete(inquiry)
     db.commit()
     return {"ok": True}
+
+@router.delete("/reset/all")
+def reset_database(db: Session = Depends(get_db)):
+    """
+    Deletes all inquiries from the database.
+    """
+    try:
+        num_deleted = db.query(Inquiry).delete()
+        db.commit()
+        return {"message": f"Deleted {num_deleted} inquiries"}
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail=str(e))

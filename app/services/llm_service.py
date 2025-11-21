@@ -2,7 +2,7 @@ import os
 import json
 from typing import TypedDict, List
 from langchain_groq import ChatGroq
-from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
+from langchain_huggingface import HuggingFaceEndpointEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate
@@ -16,9 +16,9 @@ settings = get_settings()
 
 # 1. Initialize Components
 # Use HF Inference API to save memory (runs on HF servers, not locally)
-embeddings = HuggingFaceInferenceAPIEmbeddings(
-    api_key=settings.HUGGINGFACEHUB_API_TOKEN,
-    model_name="sentence-transformers/all-MiniLM-L6-v2"
+embeddings = HuggingFaceEndpointEmbeddings(
+    huggingfacehub_api_token=settings.HUGGINGFACEHUB_API_TOKEN,
+    model="sentence-transformers/all-MiniLM-L6-v2"
 )
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",
