@@ -11,6 +11,7 @@ class Settings(BaseSettings):
     
     # AI
     GROQ_API_KEY: str = ""
+    HUGGINGFACEHUB_API_TOKEN: str = ""
     
     # Vector DB
     PINECONE_API_KEY: str = ""
