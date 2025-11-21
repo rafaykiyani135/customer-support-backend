@@ -14,3 +14,5 @@ langchain-huggingface
 langchain-pinecone
 pinecone-client
 langgraph
+sentence-transformers
+requests
