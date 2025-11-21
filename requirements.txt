@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pydantic-settings
+openai
+groq
+python-dotenv
+python-multipart
+langchain
+langchain-groq
+langchain-community
+langchain-huggingface
+langchain-pinecone
+pinecone-client
+langgraph

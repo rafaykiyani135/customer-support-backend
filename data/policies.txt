@@ -1,0 +1,29 @@
+Customer Support Policy & Knowledge Base
+
+1. REFUNDS
+- Refunds are only processed for items returned within 30 days.
+- Electronics have a 15-day return window.
+- Shipping costs are non-refundable unless the item was defective.
+- To process a refund, the customer must provide the Order ID.
+
+2. ORDER STATUS
+- Standard shipping takes 5-7 business days.
+- Express shipping takes 2-3 business days.
+- Tracking numbers are emailed within 24 hours of shipment.
+- If an order is "Processing" for more than 48 hours, check for payment issues.
+
+3. TECHNICAL ISSUES
+- For "Device Not Powering On": Ask customer to charge for 2 hours and try a different cable.
+- For "Connection Errors": Reset the device by holding the power button for 10 seconds.
+- If the issue persists, offer a replacement if under warranty (1 year).
+
+4. URGENCY GUIDELINES
+- High Urgency: Safety issues, billing errors > $100, complete service outage.
+- Medium Urgency: Shipping delays, product defects, billing errors < $100.
+- Low Urgency: General questions, feature requests, feedback.
+
+5. TONE & STYLE
+- Always be empathetic and professional.
+- Use clear, concise language.
+- Apologize for any inconvenience.
+- Sign off with "Best regards, Customer Support Team".
